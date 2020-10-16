@@ -697,7 +697,10 @@ body>div>div.main>div.main-section.main-section-3>div.main-section-3-content-rig
   font-weight: 600;
 }
 
-.footer {}
+.footer {
+  display: flex;
+  justify-content: center;
+}
 
 .footer-content {
   padding: 8rem;
