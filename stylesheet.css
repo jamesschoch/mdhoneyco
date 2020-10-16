@@ -841,3 +841,15 @@ body>div>div.main>div.main-section.main-section-3>div.main-section-3-content-rig
   display: flex;
   flex-direction: row;
 }
+
+.searchbar {
+  height: 1.5rem;
+  border-bottom: 2px solid rgba(0, 103, 78, 1);
+  width: 30px;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.searchbar:active {
+  width: 80px;
+}
