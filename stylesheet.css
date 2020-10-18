@@ -861,3 +861,7 @@ body>div>div.main>div.main-section.main-section-3>div.main-section-3-content-rig
 .searchbar:active {
   width: 80px;
 }
+
+.slick-slide, .slick-slide * {
+  outline: none !important;
+}
