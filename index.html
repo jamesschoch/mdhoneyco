@@ -51,7 +51,7 @@
       </div>!-->
 
       <div id="main-section-5" class="main-section main-section-3">
-        <div class="main-section-3-bg-layer"><img src="images/Asset 8.png" class="main-section-3-bg-layer-img">
+        <div class="main-section-3-bg-layer">
         </div>
         <div class="content-wrapper main-section-3-content">
           <img src="images/element1.svg" class="main-section-3-bg-layer-img-overlay">
@@ -490,8 +490,8 @@
           $(".slick-pagin").css("background-color", backgroundcolors[currentIndex % backgroundcolors.length]);
           $(".slick-pagin.slick-active").css("background-color", transparentcolors[currentIndex % transparentcolors.length]);
 
-          $(".main-section-3-bg-layer-img").fadeTo(700, 0.30, function() {
-            $(".main-section-3-bg-layer-img").attr("src", bgs[currentIndex % bgs.length]);
+          $(".main-section-3-bg-layer").fadeTo(700, 0.30, function() {
+            $(".main-section-3-bg-layer").css("background-image", 'url("' + bgs[currentIndex % bgs.length] + '');
           }).fadeTo(700, 1);
         });
 
